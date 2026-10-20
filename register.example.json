@@ -1,0 +1,8 @@
+{
+  "schema": "audit-evidence/v1",
+  "controls": [
+    {"id": "ORG-ACCESS-REVIEW", "owner": "IAM lead", "applicable": true, "max_age_days": 90, "evidence": []},
+    {"id": "ORG-SUPPLIER-REVIEW", "owner": "Procurement lead", "applicable": true, "max_age_days": 365, "evidence": []},
+    {"id": "ORG-DC-PHYSICAL", "owner": "Facilities lead", "applicable": false, "max_age_days": 365, "exclusion_reason": "Example only: no organization-operated datacenter; provider assurance is reviewed separately."}
+  ]
+}
